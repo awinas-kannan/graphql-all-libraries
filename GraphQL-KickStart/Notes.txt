@@ -1,0 +1,2 @@
+https://www.graphql-java-kickstart.com/samples/
+https://github.com/setchy/graphql-java-kickstart-federation-example

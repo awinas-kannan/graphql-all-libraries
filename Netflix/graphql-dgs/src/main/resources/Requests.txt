@@ -1,0 +1,36 @@
+{
+ __schema {
+   description
+ }
+}
+
+-----------------------------------------------
+
+{
+  _service{
+    sdl
+    __typename
+  }
+}
+
+-----------------------------------------------
+
+{
+ allPersons {
+   personId
+   personName
+  personAddress {
+    streetName
+    houseNumber
+    city
+    country
+  }
+ }
+}
+-----------------------------------------------
+{
+  searchPerson(searchPersonId: 1) {
+    personId
+    personName
+  }
+}

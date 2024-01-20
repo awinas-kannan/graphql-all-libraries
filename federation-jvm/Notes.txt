@@ -1,0 +1,17 @@
+https://github.com/apollographql/federation-jvm
+https://github.com/apollographql/federation-jvm-spring-example
+
+gateway applicaiton 
+ -> npm install
+ -> npm start index.js
+
+ Subgraphs Applicaito:
+   -> clean install not wokring in intellj ( jackson issue)
+   -> Wokred well in STS
+
+
+   Refer  : 
+   https://gecgithub01.walmart.com/samscluboper/ads-graphql
+   https://gecgithub01.walmart.com/RET-Marketplace/aurora-scp-read
+   https://gecgithub01.walmart.com/hw-prm/prm-graphql-service
+   https://gecgithub01.walmart.com/GBS-PeopleBenefitsDomain/Benefits-CoverageEligibility-Service

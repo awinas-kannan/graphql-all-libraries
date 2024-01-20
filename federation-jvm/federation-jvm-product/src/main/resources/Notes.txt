@@ -1,0 +1,2 @@
+https://github.com/apollographql/federation-jvm
+https://github.com/apollographql/federation-jvm-spring-example

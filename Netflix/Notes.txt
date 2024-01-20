@@ -1,0 +1,18 @@
+Reference :
+https://github.com/himanshuntwk/spring-projects
+https://www.youtube.com/watch?v=rXB71L_JK0w
+
+Netflix offl :
+ https://netflix.github.io/dgs/
+ https://github.com/Netflix/dgs-framework ( Most of the examples are in kotlin :(   )
+
+
+issues:
+When schema not added :
+ com.netflix.graphql.dgs.exceptions.NoSchemaFoundException:
+ No schema files found. Define schemas in src/main/resources/schema/*.graphqls
+
+
+Netflix Federation Example Reference :
+https://github.com/Netflix/dgs-federation-example
+
