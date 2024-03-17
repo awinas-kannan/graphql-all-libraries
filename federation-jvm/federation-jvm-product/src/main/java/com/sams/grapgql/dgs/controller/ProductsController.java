@@ -1,6 +1,5 @@
 package com.sams.grapgql.dgs.controller;
 
-import com.sams.grapgql.dgs.model.EntityFilter;
 import com.sams.grapgql.dgs.model.Product;
 import com.sams.grapgql.dgs.model.ProductFilter;
 import lombok.extern.slf4j.Slf4j;
