@@ -43,12 +43,6 @@ public class ProductsController {
     }
 
     @QueryMapping
-    public List<Product> entityFilter(@Argument EntityFilter filter) {
-        log.info("product {} ", filter);
-        return PRODUCTS.values().stream().toList();
-    }
-
-    @QueryMapping
     public List<Product> products() {
         log.info("products {} ");
         return PRODUCTS.values().stream().toList();

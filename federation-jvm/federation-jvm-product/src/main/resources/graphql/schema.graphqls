@@ -1,7 +1,6 @@
 type Query {
     product(id: ID!): Product
     productsFilter(filter: ProductFilter!): [Product]
-    entityFilter(filter: EntityFilter!): [Product]
     products: [Product!]!
 }
 
@@ -14,33 +13,4 @@ type Product @key(fields: "id") {
 input ProductFilter {
     name: String
     description: String
-}
-
-input EntityFilter{
-    entityType: [EntityType]
-    operationType: OperationType
-    attributeFilter: [AttributeFilter!]!
-}
-
-input AttributeFilter {
-     attributeName: String!
-     attributeValue: String!
-     filterType: FilterType!
-}
-
-enum EntityType{
-   ITEM
-   PRODUCT
-   ITEMGROUP
-   TRADEITEM
-}
-
-enum OperationType{
-    AND
-    OR
-}
-
-enum FilterType{
-    EQUALS
-    CONTAINS
 }
